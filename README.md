@@ -17,11 +17,11 @@
 ### 🏠 [Homepage](https://github.com/svterziev/react-chat) - [Demo](https://youtu.be/I8ImEKLhwdg)
 
 ## Stack
-**[ReactJS](https://reactjs.org)**
-**[TypeScript](https://www.typescriptlang.org)**
-**[NodeJS](https://nodejs.org)**
-**[MongoDB](https://mongodb.com)**
-**[Socket.IO](https://socket.io)**
+**[ReactJS](https://reactjs.org)**  
+**[TypeScript](https://www.typescriptlang.org)**  
+**[NodeJS](https://nodejs.org)**  
+**[MongoDB](https://mongodb.com)**  
+**[Socket.IO](https://socket.io)**  
 **[Material-UI](https://material-ui.com)**
 
 ## Install
