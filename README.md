@@ -14,7 +14,15 @@
 
 > A simple chat written in React / NodeJS / TypeScript
 
-### 🏠 [Homepage](https://github.com/svterziev/react-chat)
+### 🏠 [Homepage](https://github.com/svterziev/react-chat) - [Demo](https://youtu.be/I8ImEKLhwdg)
+
+## Stack
+* ##### [ReactJS](https://reactjs.org)
+* ##### [TypeScript](https://www.typescriptlang.org)
+* ##### [NodeJS](https://nodejs.org)
+* ##### [MongoDB](https://mongodb.com)
+* ##### Socket.IO
+* ##### [Material-UI](https://material-ui.com)
 
 ## Install
 
