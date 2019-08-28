@@ -30,4 +30,4 @@ const Avatar: React.FunctionComponent<Props> = ({
     </MuiAvatar>
   )
 }
-export default memo(Avatar, () => true)
+export default memo(Avatar)

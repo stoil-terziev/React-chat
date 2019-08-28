@@ -1,4 +1,4 @@
-import React, { memo, useReducer, useEffect, useContext, FunctionComponent, Reducer } from 'react'
+import React, { memo, useReducer, useEffect, useContext, Reducer } from 'react'
 import { Grid, Button, IconButton } from '@material-ui/core'
 import VisibilityIcon from '@material-ui/icons/Visibility'
 import VisibilityOffIcon from '@material-ui/icons/VisibilityOff'
@@ -7,7 +7,7 @@ import { UserContext } from 'context/User'
 import { NotificationContext } from 'context/Notification'
 import reducer, { initialState, State, Action } from 'reducers/register'
 
-const Register: FunctionComponent = (): JSX.Element => {
+const Register: React.FunctionComponent = (): JSX.Element => {
   const [{ username, password, confirmPassword, passwordType, hasError }, dispatch] = useReducer<
     Reducer<State, Action>
   >(reducer, initialState)

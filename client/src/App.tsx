@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react'
 import { CssBaseline, Grid } from '@material-ui/core'
-import CustomTheme from 'CustomTheme'
-import ErrorBoundary from 'ErrorBoundary'
-import ContextProviders from 'ContextProviders'
-import Routes from 'Routes'
+import CustomTheme from 'generic/CustomTheme'
+import ErrorBoundary from 'generic/ErrorBoundary'
+import ContextProviders from 'generic/ContextProviders'
+import Routes from 'generic/Routes'
 
 const App: React.FunctionComponent = (): JSX.Element =>
   <Fragment>

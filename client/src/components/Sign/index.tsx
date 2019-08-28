@@ -1,4 +1,4 @@
-import React, { useState, useContext, FunctionComponent } from 'react'
+import React, { useState, useContext } from 'react'
 import { Redirect } from 'react-router'
 import { Grid, Paper, Tabs, Tab } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
@@ -13,7 +13,7 @@ const useStyles = makeStyles({
   }
 })
 
-const Sign: FunctionComponent = (): JSX.Element | null => {
+const Sign: React.FunctionComponent = (): JSX.Element | null => {
   const [active, setActive] = useState(0)
   const { isLogged } = useContext(UserContext)
   const classes = useStyles({})

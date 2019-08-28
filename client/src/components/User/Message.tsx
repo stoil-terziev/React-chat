@@ -1,4 +1,4 @@
-import React, { memo, FunctionComponent } from 'react'
+import React, { memo } from 'react'
 import {
   Typography,
   Tooltip,
@@ -35,7 +35,7 @@ const useStyles = makeStyles(({ spacing, shadows, palette }: Theme) => ({
   }
 }))
 
-const UserMessage: FunctionComponent<Message> = ({ user, message, date, sent }): JSX.Element => {
+const UserMessage: React.FunctionComponent<Message> = ({ user, message, date, sent }): JSX.Element => {
   const classes = useStyles({})
 
   return (

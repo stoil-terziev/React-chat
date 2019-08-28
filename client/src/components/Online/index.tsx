@@ -1,4 +1,4 @@
-import React, { memo, useContext, useState, useEffect, Fragment, FunctionComponent } from 'react'
+import React, { memo, useContext, useState, useEffect, Fragment } from 'react'
 import { Typography, List } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
 import blue from '@material-ui/core/colors/blue'
@@ -30,7 +30,7 @@ const useStyles = makeStyles({
   }
 })
 
-const Online: FunctionComponent = (): JSX.Element => {
+const Online: React.FunctionComponent = (): JSX.Element => {
   const [onlineUsers, setOnlineUsers] = useState<User[]>([])
   const client = useContext(SocketContext)
   const classes = useStyles({})

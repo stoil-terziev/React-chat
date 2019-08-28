@@ -1,9 +1,9 @@
-import React, { FunctionComponent } from 'react'
+import React from 'react'
 import UserProvider from 'context/User'
 import NotificationProvider from 'context/Notification'
 import SocketProvider from 'context/Socket'
 
-const ContextProviders: FunctionComponent = ({ children }): JSX.Element => (
+const ContextProviders: React.FunctionComponent = ({ children }): JSX.Element => (
   <UserProvider>
     <SocketProvider>
       <NotificationProvider>

@@ -1,4 +1,4 @@
-import React, { Fragment, memo, FunctionComponent } from 'react'
+import React, { Fragment, memo } from 'react'
 import { ListItem, ListItemAvatar, Theme } from '@material-ui/core'
 import { default as MuiSkeleton } from '@material-ui/lab/Skeleton'
 import { makeStyles } from '@material-ui/styles'
@@ -14,7 +14,7 @@ type Props = Partial<{
   number: number
 }>
 
-const Skeleton: FunctionComponent<Props> = ({ width = '100%', number = 1 }): JSX.Element => {
+const Skeleton: React.FunctionComponent<Props> = ({ width = '100%', number = 1 }): JSX.Element => {
   const classes = useStyles({})
 
   return (

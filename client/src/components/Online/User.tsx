@@ -1,4 +1,4 @@
-import React, { memo, FunctionComponent } from 'react'
+import React, { memo } from 'react'
 import { Typography, ListItem, ListItemAvatar, ListItemText, Theme } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
 import UserAvatar from 'components/UserAvatar'
@@ -10,7 +10,7 @@ const useStyles = makeStyles(({ spacing }: Theme) => ({
   }
 }))
 
-const OnlineUser: FunctionComponent<{ user: User }> = ({ user }): JSX.Element => {
+const OnlineUser: React.FunctionComponent<{ user: User }> = ({ user }): JSX.Element => {
   const classes = useStyles({})
 
   return (

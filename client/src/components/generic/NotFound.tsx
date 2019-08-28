@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { Grid, Paper, Typography, Theme } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
@@ -24,7 +24,7 @@ const useStyles = makeStyles(({ transitions, shadows, spacing }: Theme) => ({
   }
 }))
 
-const NotFound: FunctionComponent = (): JSX.Element => {
+const NotFound: React.FunctionComponent = (): JSX.Element => {
   const classes = useStyles({})
 
   return (

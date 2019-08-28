@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react'
+import React from 'react'
 import { CircularProgress, Theme } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
 
@@ -18,7 +18,7 @@ type Props = Partial<{
   thickness: number
 }>
 
-const Loading: FunctionComponent<Props> = ({ size = 100, thickness = 5 }): JSX.Element => {
+const Loading: React.FunctionComponent<Props> = ({ size = 100, thickness = 5 }): JSX.Element => {
   const classes = useStyles({})
 
   return (
