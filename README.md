@@ -12,7 +12,8 @@
   </a>
 </p>
 
-> A simple chat written in React / NodeJS / TypeScript
+> A simple chat written in React / NodeJS / TypeScript.  
+> Currently supports only a single chat room, but in the futures more public rooms may be added, private chats, emojis, auto-link detections and more.
 
 ### 🏠 [Homepage](https://github.com/svterziev/react-chat) - [Demo](https://youtu.be/I8ImEKLhwdg)
 
